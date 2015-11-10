@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: 
+    url('myfont2.woff') format('woff2'), /* Chrome 26+, Opera 23+ */
+    url('myfont.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html,body {
+	height: 100%;
+	min-height: 100%;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	background: #2b3e50;
+	color:#fff;
+}
+a {
+	color:#5bc0de;
+	text-decoration: none;
+}
+a:hover {
+	color:#ccc;
+}
+h1 {
+	font-size:22px;
+	padding:10px;
+	background: #111;
+	color:#eee;
+}
+#help {
+	width: 960px;
+	height: 100%;
+	position: relative;
+}
+#help #sidebar {
+	width:250px;
+	height:100%;
+	background: #4e5d6c;
+	position: fixed;
+	top:0;
+	left:0;
+	overflow-y: auto;
+}
+#help #sidebar li a {
+	display: block;
+	width: 230px;
+	background: #27323E;
+	padding:10px;
+	color:#eee;
+	text-decoration: none;
+}
+#help #sidebar li ul li a{
+	background: #eee;
+	color:#27323E;
+	padding:4px 10px 4px 10px;
+	border-bottom:1px solid #ccc;
+}
+#help #sidebar li ul li a:hover {
+	background:#ccc;
+}
+#content-help {
+	width:700px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 260px;
+
+}
+h2 {
+	font-size:32px;
+	padding:10px 0 10px 0;
+}
+h3 {
+	font-size:22px;
+	padding:10px 0 10px 0;
+}
+.img-left {
+	float: left;
+	padding:0 10px 0 0;
+}
+
+p {
+	padding-bottom:10px;
+	line-height: 20px;
+}
+table {
+	width: 100%;
+}
+table td{
+	vertical-align: middle;
+	padding:10px;
+}
+table tr {
+	border:1px solid #2b3e50;
+	background-color:#27323E;
+}
+.table {
+	width:260px;
+	float: left;
+}
+.info {
+	float:left;
+	width: 430px;
+	padding-left:10px;
+}
+hr {
+	clear: both;
+	border:none;
+	height: 10px;
+}
+section {
+	width: 100%;
+	display: block;
+}
